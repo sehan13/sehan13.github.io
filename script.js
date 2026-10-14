@@ -36,7 +36,7 @@ themeBtn.addEventListener('click', () => {
 });
 
 // ---------- 3. Typing effect in the hero ----------
-const roles = ['Web Developer', 'Python Developer', 'Data Analyst', 'CS Graduate'];
+const roles = ['Software Engineer', 'Web Developer', 'Python Developer', 'Data Analyst'];
 const typed = document.getElementById('typed');
 let roleIndex = 0, charIndex = 0, deleting = false;
 
