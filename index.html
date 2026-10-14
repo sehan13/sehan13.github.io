@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Sehan | Developer &amp; Data Analyst</title>
+  <meta name="description" content="Portfolio of Muhammad Sehan, Computer Science graduate (2:1, University of Bradford) working across web development and data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">MS<span>.</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Muhammad Sehan</h1>
+        <p class="hero-role" id="typed" aria-live="polite">Web Developer</p>
+        <p class="hero-text">
+          Computer Science graduate (2:1, University of Bradford) who builds web applications
+          and turns business data into clear reports. Based in Bradford, West Yorkshire.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View my projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container two-col">
+        <h2 class="section-title">About me</h2>
+        <div>
+          <p>
+            I graduated in 2026 with a BSc (Hons) in Computer Science from the University of Bradford.
+            During my degree I worked as a frontend developer on a real client project for
+            <strong>Bradford Metropolitan District Council</strong>, building the interface of an asset-mapping web application in Laravel.
+          </p>
+          <p>
+            Alongside my studies I've worked as a <strong>Data Administrator</strong> at Windsor Bathrooms,
+            where I manage and validate 4,000+ product and inventory records and produce KPI and stock reports.
+            That work led to my own project, a Python stock tracker built around the problems I see every day.
+          </p>
+          <p>I'm looking for a graduate or junior role in <strong>web development</strong> or <strong>data analysis</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-tag">Personal project · 2026</div>
+            <h3>Stock Tracker</h3>
+            <p>
+              An inventory management web app inspired by my data role. Track products and stock levels,
+              record stock in/out movements with a full audit trail, get low-stock alerts, bulk-import products from CSV with row-level validation, and export reports. Covered by 18 automated tests.
+            </p>
+            <ul class="chips"><li>Python</li><li>Flask</li><li>SQL</li><li>SQLite</li><li>Automated tests</li></ul>
+            <div class="card-links">
+              <a href="https://github.com/sehan13/stock-tracker" target="_blank" rel="noopener">Code on GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-tag">Team project · Jan–Apr 2025</div>
+            <h3>Bradford Council Asset Mapping</h3>
+            <p>
+              A web system for Bradford Metropolitan District Council where staff upload asset data (CSV)
+              and view it on an interactive Google Map, with admin approval and role-based access.
+              <strong>My role:</strong> frontend developer, covering page layouts, mobile responsiveness and form styling.
+            </p>
+            <ul class="chips"><li>Laravel</li><li>Blade</li><li>Tailwind CSS</li><li>JavaScript</li><li>Google Maps API</li></ul>
+            <div class="card-links">
+              <a href="https://github.com/dahmad2/Our-Project" target="_blank" rel="noopener">Team repository →</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-tag">Final year project · 2025–26</div>
+            <h3>Boolean Algebra &amp; Reversible Computation</h3>
+            <p>
+              Researched the link between Boolean algebra and Boolean rings, designed a model to turn logic
+              circuits into XOR-based form, and verified CNOT and Toffoli reversible gates with algebraic proofs
+              and truth tables, with applications in energy-efficient and quantum computing.
+            </p>
+            <ul class="chips"><li>Logic design</li><li>Discrete maths</li><li>Quantum computing</li></ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-tag">This site</div>
+            <h3>Portfolio Website</h3>
+            <p>
+              A responsive, accessible single-page site with a dark mode, mobile menu and scroll animations,
+              built without frameworks and hosted free on GitHub Pages.
+            </p>
+            <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+            <div class="card-links">
+              <a href="https://github.com/sehan13/sehan13.github.io" target="_blank" rel="noopener">Code on GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <ol class="timeline">
+          <li class="reveal">
+            <div class="tl-date">Sep 2024 – Present</div>
+            <h3>Data Administrator / Sales Assistant</h3>
+            <p class="tl-org">Windsor Bathrooms Ltd (Narang Wholesale), Bradford</p>
+            <p>Maintain data accuracy across 4,000+ product, inventory and supplier records; automate weekly KPI and stock reports in Excel, saving 10+ hours a week; build Excel dashboards for management.</p>
+          </li>
+          <li class="reveal">
+            <div class="tl-date">Aug 2026 – Present</div>
+            <h3>Warehouse Associate (Part-time)</h3>
+            <p class="tl-org">Amazon, DSA6, Wakefield</p>
+            <p>Consistently meet productivity targets of 320 units per hour across 2,500+ items per shift using RF scanners and a warehouse management system.</p>
+          </li>
+          <li class="reveal">
+            <div class="tl-date">Dec 2024 – May 2026</div>
+            <h3>Customer Service Assistant (Part-time)</h3>
+            <p class="tl-org">Mughal's Restaurant &amp; Sweet Centre, Bradford</p>
+            <p>Handled payments and end-of-day cash reconciliation in a fast-paced, customer-facing environment.</p>
+          </li>
+          <li class="reveal">
+            <div class="tl-date">Sep 2023 – May 2026</div>
+            <h3>BSc (Hons) Computer Science, 2:1</h3>
+            <p class="tl-org">University of Bradford</p>
+            <p>Modules include Database Systems, Software System Design &amp; Testing, Data Structures &amp; Algorithms, AI, Cybersecurity and Networks.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills">
+          <div class="skill-group reveal">
+            <h3>Web development</h3>
+            <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>PHP</li><li>Laravel</li><li>Blade</li><li>Tailwind CSS</li><li>Responsive design</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Programming</h3>
+            <ul class="chips"><li>Python</li><li>Flask</li><li>Java</li><li>SQL</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Data</h3>
+            <ul class="chips"><li>Excel (Pivot Tables, lookups)</li><li>SQL</li><li>Data validation</li><li>KPI reporting</li><li>Dashboards</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tools &amp; practices</h3>
+            <ul class="chips"><li>Git &amp; GitHub</li><li>Agile sprints</li><li>MVC</li><li>Automated testing (unittest)</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Let's talk</h2>
+        <p class="contact-text">I'm open to graduate and junior roles in web development and data analysis across West Yorkshire and remote.</p>
+        <div class="contact-links">
+          <a class="btn" href="mailto:mohmmadsehan6@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/muhammad-sehan-937752417" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/sehan13" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Muhammad Sehan</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
